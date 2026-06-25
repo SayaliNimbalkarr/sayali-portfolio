@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f7f4ef;
+    font-family:'Poppins',sans-serif;
+    color:#111;
+    padding-top:80px;
+}
+
+section{
+    scroll-margin-top:100px;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#051937;
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 80px;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+
+    z-index:1000;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:700;
+}
+
+nav ul{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#e34848;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.red-blob{
+    position:absolute;
+
+    width:850px;
+    height:270px;
+
+    background:#b83a3a;
+    border-radius:60%;
+
+    z-index:-2;
+}
+
+.orbit{
+    position:absolute;
+
+    width:850px;
+    height:270px;
+
+    border:1px solid black;
+    border-radius:60%;
+
+    transform:rotate(-10deg);
+}
+
+.hero h1{
+    font-size:7.5rem;
+    font-weight:900;
+    color:#051937;
+}
+
+.hero-content{
+    text-align:center;
+
+}
+
+.hero-name{
+    font-family: 'Amatic SC', cursive;
+    font-size:3rem;
+    color:white;
+    margin-top:-10px;
+}
+
+/* STARS */
+
+.star{
+    position:absolute;
+    color:#e34848;
+    font-size:40px;
+}
+
+.star1{
+    top:120px;
+    left:100px;
+}
+
+.star2{
+    right:150px;
+    top:250px;
+    color: #050011;
+}
+
+.star3{
+    left:180px;
+    bottom:170px;
+    color: #050011;
+}
+
+.star4{
+    right:120px;
+    bottom:120px;
+}
+
+/* SECTION */
+
+.page-section{
+    padding:80px 0;
+}
+
+.card{
+    width:85%;
+    margin:auto;
+
+    border:3px solid black;
+    border-radius:35px;
+
+    padding:40px;
+
+    background:#f7f4ef;
+
+    position:relative;
+}
+
+.section-title{
+    text-align:center;
+    font-size:3rem;
+    font-weight:800;
+
+    margin-bottom:20px;
+}
+
+.purple-line{
+    height:3px;
+    background:#050011;
+    margin:20px -40px;
+}
+
+/* PROJECT */
+
+.project-name{
+    font-family: 'Amatic SC', cursive;
+    font-size:4rem;
+    color:#e34848;
+
+    margin-bottom:20px;
+}
+
+.tech-stack{
+    margin-bottom:15px;
+    font-size:1.3rem;
+}
+
+.project-card ul{
+    margin-left:30px;
+}
+
+.project-card li{
+    margin-bottom:15px;
+    line-height:1.8;
+    font-size:1.25rem;
+}
+
+.project-card p{
+    font-size:1.25rem;
+}
+
+.dashboard-img{
+    width:100%;
+    border-radius:15px;
+    display:block;
+    margin-top:20px;
+}
+
+/* ABOUT */
+.about-text{
+    margin-bottom:5px;
+    line-height:1.8;
+    font-size:1.4rem;
+}
+/* SKILLS */
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.skill-box{
+    border:2px solid black;
+    border-radius:15px;
+    padding:20px;
+    text-align:center;
+
+    font-weight:600;
+    font-size:1.4rem;
+}
+
+.skill-box:hover{
+    background:#b83a3a;
+    color:white;
+    transform:translateY(-5px);
+}
+
+/* CERTIFICATIONS */
+
+.cert-box{
+    border:2px solid black;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+/* CONTACT */
+.contact-box{
+    text-align:center;
+}
+
+.contact-box p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+    margin:20px 0;
+    font-size:1.2rem;
+}
+
+.contact-box i{
+    color:#b83a3a;
+    margin-right:10px;
+    font-size:1.2rem;
+}
+
+.contact-box a{
+    color:#051937;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.contact-box a:hover{
+    color:#b83a3a;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+
+    background:#e34848;
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+}
+
+.btn:hover{
+    background:#f7f4ef;
+    color:black;
+    transform:translateY(-5px);
+    border:2px solid black;
+    cursor: pointer;
+}
+
+.contact-hero{
+    min-height:100vh;
+}
+
+.contact-small{
+    font-family:'Amatic SC', cursive;
+    font-size:4rem;
+    color:#e34848;
+    margin-bottom:-30px;
+}
+
+.contact-hero h1{
+    font-size:8rem;
+    font-weight:900;
+    color:#051937;
+}
+.orbit2{
+    transform:rotate(12deg);
+}
