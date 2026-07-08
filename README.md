@@ -19,7 +19,7 @@ Performed end-to-end analysis of customer shopping data using Python, PostgreSQL
 
 ## 🚖 Ola Booking Analysis
 
-<img width="1002" height="567" alt="D2" src="https://github.com/user-attachments/assets/ef050d85-0fe8-41fa-b12b-cdc64e6bb015" />
+<img width="1002" height="563" alt="D2" src="https://github.com/user-attachments/assets/a43c8280-c3d0-4f21-ad19-004ba96ea8f1" />
 
 
 Analyzed over **100,000 booking records** to evaluate booking trends, revenue, vehicle performance, and customer behavior through SQL analysis and interactive Power BI dashboards.
