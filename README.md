@@ -1,60 +1,43 @@
-# Hi, I'm Sayali Nimbalkar
+# Sayali Nimbalkar — Portfolio
 
-Welcome to my portfolio repository!
+## Run it locally
+No build tools needed — it's a single static HTML file.
 
-I am a recent Information Technology graduate with a strong interest in **Data Analytics, Business Intelligence, and Data Visualization**. This repository contains the projects I have built using **Power BI, SQL, Excel, Python, Tableau, and DAX** to solve real-world business problems and transform data into meaningful insights.
+1. Unzip this folder.
+2. Double-click `index.html` to open it in your browser
+   — OR, for the best experience (fonts load correctly), run a local server:
+   ```
+   cd sayali-portfolio
+   python3 -m http.server 8000
+   ```
+   Then open http://localhost:8000 in your browser.
 
----
+## Before you deploy, add your real files
 
-# 📂 Projects
+This zip has placeholder folders you need to fill in:
 
-## 🛍️ Customer Shopping Behaviour Analysis
+### `images/` — dashboard screenshots
+Add these 5 files (same names your old site used):
+- D1.png — Customer Shopping Behaviour dashboard
+- D2.png — Ola Booking Analysis dashboard
+- D4.png — Swiggy Data Analysis dashboard
+- D7.png — Coffee Shop Sales dashboard
+- D6.png — HR Analytics dashboard
 
-<img width="1123" height="636" alt="D1" src="https://github.com/user-attachments/assets/7e09a39d-9340-4c2c-99b4-caa96e082e41" />
+### `certificates/` — certificate PDFs
+Add these 4 files:
+- deloitte-data-analytics.pdf
+- tata-data-visualisation.pdf
+- coursera-excel.pdf
+- hackerrank-sql.pdf
 
+### `asset/` — resume
+Add:
+- Resume.pdf
 
-Performed end-to-end analysis of customer shopping data using Python, PostgreSQL, and Power BI to identify purchasing patterns, revenue trends, customer segments, and product performance.
-
----
-
-## 🚖 Ola Booking Analysis
-
-<img width="1002" height="563" alt="D2" src="https://github.com/user-attachments/assets/a43c8280-c3d0-4f21-ad19-004ba96ea8f1" />
-
-
-Analyzed over **100,000 booking records** to evaluate booking trends, revenue, vehicle performance, and customer behavior through SQL analysis and interactive Power BI dashboards.
-
----
-
-## 🍔 Swiggy Data Analysis
-
-<img width="1448" height="591" alt="D4" src="https://github.com/user-attachments/assets/56dd96c1-82b9-430f-8304-36fb08f113c0" />
-
-
-Built an interactive Excel dashboard using Pivot Tables, Pivot Charts, and Slicers to analyze over **197,000 order records** and uncover sales trends, customer insights, and business performance.
-
----
-
-## ☕ Coffee Shop Sales Analysis
-
-<img width="1118" height="603" alt="D7" src="https://github.com/user-attachments/assets/fc9790b7-cfb6-4167-9532-bcbda6b7cf06" />
-
-
-Analyzed over **100,000 coffee shop transaction records** using Power BI. Built an interactive dashboard to monitor sales performance, product trends, peak sales hours, and store-wise performance using DAX measures, KPIs, and interactive slicers.
-
----
-
-## 👥 HR Analytics Dashboard
-
-<img width="1381" height="777" alt="D6" src="https://github.com/user-attachments/assets/b2c65bf6-893d-4c7c-96b5-a78b11659a1a" />
-
-
-Designed an interactive Tableau dashboard to analyze employee attrition, workforce demographics, and department-wise trends using KPIs and dynamic visualizations.
-
----
-
-## 📧 Contact
-
-- **LinkedIn:** https://www.linkedin.com/in/sayali-nimbalkar/
-- **GitHub:** https://github.com/SayaliNimbalkarr
-- **Email:** nimbalkarsayali012@gmail.com
+## Deploy to GitHub Pages
+1. Copy `index.html` and the 3 folders above (with your real files inside)
+   into your `sayali-portfolio` GitHub repo, replacing what's there.
+2. Commit and push.
+3. Your site updates automatically at:
+   https://sayalinimbalkarr.github.io/sayali-portfolio/
